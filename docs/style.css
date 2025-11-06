@@ -41,34 +41,17 @@ p{
   padding: 15px 30px;
 } 
 
-.navbar { 
-  .home{ 
-    font-size: 20px;
-  }
-  
-}
-
-@media screen and (max-width: 768px) {
-  
-  .navbar {
-    flex-direction: column;  
-    
-  }
-  
-  
-  .nav-link {
-    font-size: 14px;
-  }
-}
 
 
 .home { 
     text-align: center; 
 
+}
+
+@media screen and (max-width: 768px) { 
+
   
-  
-  
-}  
+}
 
 
 .home p{ 
