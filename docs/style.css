@@ -1,4 +1,6 @@
 
+
+
 body {
   background-color: darkblue;
   margin: 0;
@@ -35,8 +37,28 @@ p{
 .navbar {
   justify-content: space-between;
   text-decoration: end;
-  background-color: #161b22;
+  background-color: black;
   padding: 15px 30px;
+} 
+
+.navbar { 
+  .home{ 
+    font-size: 20px;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  
+  .navbar {
+    flex-direction: column;  
+    
+  }
+  
+  
+  .nav-link {
+    font-size: 14px;
+  }
 }
 
 
@@ -151,10 +173,21 @@ img{
   padding: 80px 20px;
   text-align: center;
   background: #0d1117;
-  color: white;
+  color: white; 
+  img{
+    font-size: 250px;
+    border-radius: 50%; 
+    height: 250px;
+    width: 250px; 
+    
+    
+    
 } 
+}
 .contact h2{
-  color: yellow;
+  color: yellow; 
+  padding-top: 50px;
+
 }
 
 .contact p {
